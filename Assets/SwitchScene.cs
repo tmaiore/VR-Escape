@@ -8,5 +8,6 @@ public class SwitchScene : MonoBehaviour
     public void LoadScene(int levelID)
     {
         SceneManager.LoadScene(levelID);
+
     }
 }
