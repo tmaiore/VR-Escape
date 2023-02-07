@@ -1744,6 +1744,17 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &359463113 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9001663195072419628, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+  m_PrefabInstance: {fileID: 6539972389503430310}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3812502e44a92184b8402680315cb7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &526531083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4790,7 +4801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960463484}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.79, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 1.479, z: 1.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5336,6 +5347,11 @@ PrefabInstance:
       objectReference: {fileID: 1749081076}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
+--- !u!1 &385523945571576722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 385523945230149984, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
+  m_PrefabInstance: {fileID: 385523945571576721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2662124583654922092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5433,6 +5449,11 @@ PrefabInstance:
       objectReference: {fileID: 1749081076}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
+--- !u!1 &2662124583654922093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2662124582875499215, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
+  m_PrefabInstance: {fileID: 2662124583654922092}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6539972389503430310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5440,10 +5461,74 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 362772868515812790, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: DayRoom
+      value: 
+      objectReference: {fileID: 385523945571576722}
+    - target: {fileID: 362772868515812790, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: RedRoom
+      value: 
+      objectReference: {fileID: 6715553012895144519}
+    - target: {fileID: 362772868515812790, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: NightRoom
+      value: 
+      objectReference: {fileID: 2662124583654922093}
+    - target: {fileID: 1172448561306017581, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 359463113}
+    - target: {fileID: 1172448561306017581, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowDayRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172448561306017581, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RoomLight, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172448561306017581, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2221340876524672808, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2116400078}
+    - target: {fileID: 3767737219231270477, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2116400078}
+    - target: {fileID: 3767737219231270477, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 359463113}
+    - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowRedRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RoomLight, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6539972389576436376, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5492,6 +5577,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Common
       objectReference: {fileID: 0}
+    - target: {fileID: 8929511776128847414, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929511776128847414, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929511776128847414, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 359463113}
+    - target: {fileID: 8929511776128847414, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929511776128847414, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowNightRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929511776128847414, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: RoomLight, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929511776128847414, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001663195072419628, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: DayRoom
+      value: 
+      objectReference: {fileID: 385523945571576722}
+    - target: {fileID: 9001663195072419628, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: RedRoom
+      value: 
+      objectReference: {fileID: 6715553012895144519}
+    - target: {fileID: 9001663195072419628, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: NightRoom
+      value: 
+      objectReference: {fileID: 2662124583654922093}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
 --- !u!1001 &6715553012895144518
@@ -5575,3 +5700,8 @@ PrefabInstance:
       objectReference: {fileID: 1749081076}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bd3c53e7e4affe4e93049603e617f9a, type: 3}
+--- !u!1 &6715553012895144519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6715553011004775048, guid: 7bd3c53e7e4affe4e93049603e617f9a, type: 3}
+  m_PrefabInstance: {fileID: 6715553012895144518}
+  m_PrefabAsset: {fileID: 0}
