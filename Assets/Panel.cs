@@ -5,7 +5,7 @@ using UnityEngine;
 public class Panel : MonoBehaviour
 {
 
-    public static Panel instance = null;
+    public static Panel instance;
 
     [SerializeField]
     public int correct = 0;

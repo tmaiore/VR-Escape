@@ -10,7 +10,6 @@ public class MogusManager : MonoBehaviour
 {
 
     XRSocketInteractor interactor;
-    private Panel panel;
 
     [SerializeField]
     private string tagg;
@@ -40,21 +39,21 @@ public class MogusManager : MonoBehaviour
                 case "red":
                     if (interactor.tag == "redPanel")
                     {
-                        panel.correct++;
+                        Panel.instance.correct++;
                     }
                     break;
 
                 case "white":
                     if (interactor.tag == "whitePanel")
                     {
-                        panel.correct++;
+                        Panel.instance.correct++;
                     }
                     break;
 
                 case "grey":
                     if (interactor.tag == "greyPanel")
                     {
-                        panel.correct++;
+                        Panel.instance.correct++;
                     }
                     break;
 
@@ -69,7 +68,7 @@ public class MogusManager : MonoBehaviour
     public void OnDeselect(SelectExitEventArgs args)
     {
         tagg = "";
-        panel.correct--;
+        Panel.instance.correct--;
     }
 
 
