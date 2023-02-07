@@ -2284,6 +2284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
+  bouton: {fileID: 0}
 --- !u!1 &701610139
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,6 +5343,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 280313760880785106, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1805394509690279311, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -5406,6 +5411,14 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1749081076}
+    - target: {fileID: 4048480047096157838, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048480047096157838, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5485064415329697011, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
       propertyPath: m_TagString
       value: grey
