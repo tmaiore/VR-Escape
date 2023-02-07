@@ -2264,7 +2264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  bouton: {fileID: 6539972389503430312}
+  bouton: {fileID: 6539972389503430313}
   table: {fileID: 6539972389503430311}
 --- !u!1 &701610139
 GameObject:
@@ -5703,6 +5703,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1749081076}
+    - target: {fileID: 899404700121402007, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
+      propertyPath: bouton
+      value: 
+      objectReference: {fileID: 6539972389503430312}
     - target: {fileID: 7976934501535768665, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -5835,6 +5839,10 @@ PrefabInstance:
       propertyPath: NightRoom
       value: 
       objectReference: {fileID: 2662124583654922093}
+    - target: {fileID: 422264870616077523, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1172448561306017581, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -5997,6 +6005,11 @@ GameObject:
 --- !u!224 &6539972389503430312 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1933735876655417164, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+  m_PrefabInstance: {fileID: 6539972389503430310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &6539972389503430313 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8515677539426672703, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
   m_PrefabInstance: {fileID: 6539972389503430310}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6715553012895144518
