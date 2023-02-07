@@ -11,6 +11,9 @@ public class PBScript : MonoBehaviour
     public Image Bouton4;
     public Image Bouton5;
 
+    [SerializeField]
+    private RectTransform Fin;
+
     public int B1 = 0;
     public int B2 = -1;
     public int B3 = -1;
@@ -55,6 +58,8 @@ public class PBScript : MonoBehaviour
         Bouton3.color = white;
         Bouton4.color = white;
         Bouton5.color = white;
+
+        Fin.gameObject.SetActive(true);
     }
 
     IEnumerator WPPT()

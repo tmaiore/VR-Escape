@@ -2264,7 +2264,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  bouton: {fileID: 0}
+  bouton: {fileID: 6539972389503430312}
+  table: {fileID: 6539972389503430311}
 --- !u!1 &701610139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,7 +3139,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cc8c9583c678323439efda9b5ffa7df1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3235,7 +3236,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cc8c9583c678323439efda9b5ffa7df1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4738,7 +4739,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cc8c9583c678323439efda9b5ffa7df1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5072,7 +5073,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cc8c9583c678323439efda9b5ffa7df1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5854,6 +5855,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2116400078}
+    - target: {fileID: 3174027225876710856, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3767737219231270477, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_Camera
       value: 
@@ -5861,6 +5866,10 @@ PrefabInstance:
     - target: {fileID: 3767737219231270477, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4213864140478372718, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5148710159105723509, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -5980,6 +5989,16 @@ PrefabInstance:
       objectReference: {fileID: 2662124583654922093}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+--- !u!1 &6539972389503430311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3174027225876710856, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+  m_PrefabInstance: {fileID: 6539972389503430310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &6539972389503430312 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1933735876655417164, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+  m_PrefabInstance: {fileID: 6539972389503430310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6715553012895144518
 PrefabInstance:
   m_ObjectHideFlags: 0

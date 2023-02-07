@@ -14,6 +14,9 @@ public class Panel : MonoBehaviour
     [SerializeField]
     public RectTransform bouton;
 
+    [SerializeField]
+    public GameObject table;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +31,7 @@ public class Panel : MonoBehaviour
         {
             //énigme résolue, activer le bouton 
             bouton.gameObject.SetActive(true);
-
+            table.SetActive(true);
             correct++;
         }
     }
