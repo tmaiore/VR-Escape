@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class RoomLight : MonoBehaviour
 {
+    public static RoomLight instance = null;
+
+
     [SerializeField]
     private GameObject DayRoom;
 
@@ -13,6 +16,8 @@ public class RoomLight : MonoBehaviour
 
     [SerializeField]
     private GameObject NightRoom;
+
+    [SerializeField] private Transform common;
 
 
     private static void Show(GameObject gameObject)
@@ -24,6 +29,11 @@ public class RoomLight : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+    void Awake()
+	{
+        instance = this;
+	}
 
     // Start is called before the first frame update
     void Start()
