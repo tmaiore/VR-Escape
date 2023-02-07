@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class Panel : MonoBehaviour
 {
 
-    public Panel instance;
 
     [SerializeField]
     public int correct = 0;
-
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,7 @@ public class Panel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (correct == 16)
         {
             //énigme résolue
@@ -27,4 +28,16 @@ public class Panel : MonoBehaviour
             correct++;
         }
     }
+
+    public void correctPlus()
+    {
+        correct++;
+    }
+
+    public void correctMoins()
+    {
+        correct--;
+    }
+
+
 }

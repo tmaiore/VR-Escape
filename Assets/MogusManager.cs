@@ -8,16 +8,17 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class MogusManager : MonoBehaviour
 {
-
-    XRSocketInteractor interactor;
-
     [SerializeField]
     private string tagg;
+
+    [SerializeField] 
+    private Panel panel;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        interactor= GetComponent<XRSocketInteractor>();
+       
     }
 
     // Update is called once per frame
@@ -28,38 +29,35 @@ public class MogusManager : MonoBehaviour
 
     public void OnSelect(SelectEnterEventArgs args)
     {
-        IXRSelectInteractable objName = interactor.GetOldestInteractableSelected();
-        if (objName != null)
+        //IXRSelectInteractable objName = interactor.GetOldestInteractableSelected();
+        //GameObject obj = objName.transform.gameObject;
+        tagg = args.interactableObject.transform.gameObject.tag;// obj.tag;
+
+        switch (tagg)
         {
-            GameObject obj = objName.transform.gameObject;
-            tagg = obj.tag;
+            case "red":
+                if (gameObject.tag == "redPanel")
+                {
+                    panel.correctPlus();
+                }
+                break;
 
-            switch (tagg)
-            {
-                case "red":
-                    if (interactor.tag == "redPanel")
-                    {
-                        Panel.instance.correct++;
-                    }
-                    break;
+            case "white":
+                if (gameObject.tag == "whitePanel")
+                {
+                    panel.correctPlus();
+                }
+                break;
 
-                case "white":
-                    if (interactor.tag == "whitePanel")
-                    {
-                        Panel.instance.correct++;
-                    }
-                    break;
+            case "grey":
+                if (gameObject.tag == "greyPanel")
+                {
+                    panel.correctPlus();
+                }
+                break;
 
-                case "grey":
-                    if (interactor.tag == "greyPanel")
-                    {
-                        Panel.instance.correct++;
-                    }
-                    break;
+            default: break;
 
-                default: break;
-
-            }
         }
         
     }
@@ -68,7 +66,7 @@ public class MogusManager : MonoBehaviour
     public void OnDeselect(SelectExitEventArgs args)
     {
         tagg = "";
-        Panel.instance.correct--;
+       panel.correctMoins();
     }
 
 
