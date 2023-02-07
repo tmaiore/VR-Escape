@@ -10,12 +10,10 @@ public class MogusManager : MonoBehaviour
 {
 
     XRSocketInteractor interactor;
+    private Panel panel;
 
     [SerializeField]
     private string tagg;
-
-    [SerializeField]
-    private int correct = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -26,53 +24,52 @@ public class MogusManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(correct == 16)
-        {
-            //énigme résolue
-
-            correct++;
-        }
+       
     }
 
     public void OnSelect(SelectEnterEventArgs args)
     {
         IXRSelectInteractable objName = interactor.GetOldestInteractableSelected();
-        GameObject obj = objName.transform.gameObject;
-        tagg = obj.tag;
-
-        switch(tagg)
+        if (objName != null)
         {
-            case "red":
-                if (interactor.tag == "redPanel")
-                {
-                    correct++;
-                }
-                break;
+            GameObject obj = objName.transform.gameObject;
+            tagg = obj.tag;
 
-            case "white":
-                if (interactor.tag == "whitePanel")
-                {
-                    correct++;
-                }
-                break;
+            switch (tagg)
+            {
+                case "red":
+                    if (interactor.tag == "redPanel")
+                    {
+                        panel.correct++;
+                    }
+                    break;
 
-            case "grey":
-                if (interactor.tag == "greyPanel")
-                {
-                    correct++;
-                }
-                break;
+                case "white":
+                    if (interactor.tag == "whitePanel")
+                    {
+                        panel.correct++;
+                    }
+                    break;
 
-            default: break;
+                case "grey":
+                    if (interactor.tag == "greyPanel")
+                    {
+                        panel.correct++;
+                    }
+                    break;
 
+                default: break;
+
+            }
         }
+        
     }
 
 
     public void OnDeselect(SelectExitEventArgs args)
     {
         tagg = "";
-        correct--;
+        panel.correct--;
     }
 
 
