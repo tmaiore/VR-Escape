@@ -9,6 +9,12 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private SwitchScene switchScene;
 
+    [SerializeField]
+    private GameObject heroic;
+
+    [SerializeField]
+    private GameObject braveheart;
+
     void Update()
     {
         if (timeLeft < 0)
@@ -19,6 +25,14 @@ public class Timer : MonoBehaviour
 		{
             timeLeft -= Time.deltaTime;
             //Debug.Log(timeLeft);
+        }
+        if(timeLeft < 260)
+        {
+            heroic.SetActive(true);
+        }
+        if(timeLeft < 140)
+        {
+            braveheart.SetActive(true);
         }
     }
 }
