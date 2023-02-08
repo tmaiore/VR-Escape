@@ -19,6 +19,18 @@ public class RoomLight : MonoBehaviour
 
     [SerializeField] private Transform common;
 
+    [SerializeField]
+    private GameObject Cube;
+
+    [SerializeField]
+    private GameObject Cylindre;
+
+    [SerializeField]
+    private GameObject Pyramide;
+
+    [SerializeField]
+    private GameObject Sphere;
+
 
     private static void Show(GameObject gameObject)
     {
@@ -50,6 +62,10 @@ public class RoomLight : MonoBehaviour
     public void ShowDayRoom()
     {
         Show(DayRoom);
+        Show(Sphere);
+        Show(Cylindre);
+        Show(Pyramide); 
+        Show(Cube);
         Hide(RedRoom);
         Hide(NightRoom);
 
@@ -58,6 +74,10 @@ public class RoomLight : MonoBehaviour
     public void ShowRedRoom()
 	{
         Hide(DayRoom);
+        Hide(Sphere);
+        Hide(Cylindre);
+        Hide(Pyramide);
+        Hide(Cube);
         Show(RedRoom);
         Hide(NightRoom);
     }
@@ -65,6 +85,10 @@ public class RoomLight : MonoBehaviour
     public void ShowNightRoom()
 	{
         Hide(DayRoom);
+        Hide(Sphere);
+        Hide(Cylindre);
+        Hide(Pyramide);
+        Hide(Cube);
         Hide(RedRoom);
         Show(NightRoom);
     }
