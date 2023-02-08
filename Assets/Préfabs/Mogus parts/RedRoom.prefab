@@ -2537,6 +2537,7 @@ GameObject:
   - component: {fileID: 4066283650074510332}
   - component: {fileID: 7042905703723993183}
   - component: {fileID: 8905151650549443795}
+  - component: {fileID: 5329826109244526354}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2654,6 +2655,33 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &5329826109244526354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460492104677899580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac476d08a0cdd4b44bf56709a97e0e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bouton1: {fileID: 576105430187879131}
+  Bouton2: {fileID: 3653863799086113949}
+  Bouton3: {fileID: 6857902860759942738}
+  Bouton4: {fileID: 5415781045438558130}
+  Bouton5: {fileID: 8758907123637225533}
+  Bouton6: {fileID: 6188054268385254403}
+  Bouton7: {fileID: 3994199198324610622}
+  Bouton8: {fileID: 8640256016690337308}
+  Bouton9: {fileID: 788624660566146599}
+  Bouton0: {fileID: 8208506417728264117}
+  B1: 0
+  B2: -1
+  B3: -1
+  B4: -1
+  Bouton: {fileID: 0}
 --- !u!1 &5478738561522267895
 GameObject:
   m_ObjectHideFlags: 0

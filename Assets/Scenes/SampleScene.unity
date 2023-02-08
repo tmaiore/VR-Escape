@@ -3417,6 +3417,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135469010}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!224 &1145689236 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3268386263563906902, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+  m_PrefabInstance: {fileID: 6539972389503430310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1156631056 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 899404701137698317, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
@@ -5863,7 +5868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 385523945230149984, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 385523945230149987, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
       propertyPath: m_RootOrder
@@ -6165,7 +6170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2662124582875499215, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2662124583444914022, guid: 922fe9b00e54734419cc7c454dbfac49, type: 3}
       propertyPath: m_InteractionManager
@@ -6265,6 +6270,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2116400078}
+    - target: {fileID: 2814394529577601810, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3174027225876710856, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6405,6 +6414,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 21171392b1274c244a18c00dac44474f, type: 2}
+    - target: {fileID: 7052558769163426850, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8764193783708215696, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -6493,6 +6506,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1841936832536989338, guid: 7bd3c53e7e4affe4e93049603e617f9a, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2116400078}
+    - target: {fileID: 5329826109244526354, guid: 7bd3c53e7e4affe4e93049603e617f9a, type: 3}
+      propertyPath: Bouton
+      value: 
+      objectReference: {fileID: 1145689236}
     - target: {fileID: 5918340128390264173, guid: 7bd3c53e7e4affe4e93049603e617f9a, type: 3}
       propertyPath: m_Intensity
       value: 10
@@ -6507,7 +6528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6715553011004775048, guid: 7bd3c53e7e4affe4e93049603e617f9a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6715553011004775049, guid: 7bd3c53e7e4affe4e93049603e617f9a, type: 3}
       propertyPath: m_RootOrder
