@@ -121,7 +121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8758907123637225533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: Wrong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &187664009553359862
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,7 +520,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6188054268385254403}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: Wrong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1069776955195632296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1287,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 576105430187879131}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: Wrong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3255341084878876833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,7 +1651,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5415781045438558130}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: BP2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4024504338331975009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,7 +2145,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3653863799086113949}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: Wrong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4814510803974313937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,7 +3095,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 788624660566146599}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: Wrong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5986875537687561378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,7 +4843,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6857902860759942738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: Wrong
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7047953812426645095
 GameObject:
   m_ObjectHideFlags: 0
@@ -4893,7 +4977,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3994199198324610622}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: BP1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7136311047727804910
 GameObject:
   m_ObjectHideFlags: 0
@@ -5015,7 +5111,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8640256016690337308}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: BP3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7237124100017498649
 GameObject:
   m_ObjectHideFlags: 0
@@ -5466,7 +5574,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8208506417728264117}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5329826109244526354}
+        m_TargetAssemblyTypeName: Digicode, Assembly-CSharp
+        m_MethodName: BP4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8696880479693415869
 GameObject:
   m_ObjectHideFlags: 0
