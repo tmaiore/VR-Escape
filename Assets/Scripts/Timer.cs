@@ -18,7 +18,7 @@ public class Timer : MonoBehaviour
         else
 		{
             timeLeft -= Time.deltaTime;
-            Debug.Log(timeLeft);
+            //Debug.Log(timeLeft);
         }
     }
 }
