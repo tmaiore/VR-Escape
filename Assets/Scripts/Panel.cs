@@ -20,6 +20,9 @@ public class Panel : MonoBehaviour
     [SerializeField]
     public RectTransform bouton;
 
+    AudioSource source;
+    AudioClip clip;
+
     
 
     // Start is called before the first frame update
@@ -35,6 +38,8 @@ public class Panel : MonoBehaviour
         if (correct == 16)
         {
             //énigme résolue, activer le bouton 
+            source = GetComponent<AudioSource>();
+            source.PlayOneShot(clip);
             bouton.gameObject.SetActive(true);
             
             correct++;
