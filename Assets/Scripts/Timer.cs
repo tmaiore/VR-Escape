@@ -6,7 +6,8 @@ public class Timer : MonoBehaviour
 {
     public float timeLeft = 10.0f;
 
-    [SerializeField] private SwitchScene switchScene;
+    [SerializeField]
+    private SwitchScene switchScene;
 
     void Update()
     {
