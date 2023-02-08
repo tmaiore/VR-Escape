@@ -2195,6 +2195,7 @@ MonoBehaviour:
   a: 0
   b: 0
   player: {fileID: 2116400081}
+  bouton: {fileID: 573842576}
 --- !u!114 &359463113 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9001663195072419628, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
@@ -2397,6 +2398,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagg: 
   panel: {fileID: 663735986}
+--- !u!224 &573842576 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2358437029039493043, guid: c8a503ef04d1f2b4091d038e66309499, type: 3}
+  m_PrefabInstance: {fileID: 6539972389503430310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &577634997
 GameObject:
   m_ObjectHideFlags: 0

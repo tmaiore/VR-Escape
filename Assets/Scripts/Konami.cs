@@ -21,6 +21,9 @@ public class Konami : MonoBehaviour
     [SerializeField]
     private PlayerCollider player;
 
+    [SerializeField]
+    public RectTransform bouton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,6 +61,7 @@ public class Konami : MonoBehaviour
                 {
                     b++;
                     //colorer e
+                    bouton.gameObject.SetActive(true);
                     break;
                 }
                 else
