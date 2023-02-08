@@ -12,6 +12,12 @@ public class Panel : MonoBehaviour
     public int correct = 0;
 
     [SerializeField]
+    public int incorrect = 0;
+
+    [SerializeField] 
+    public int notPlaced = 16;
+
+    [SerializeField]
     public RectTransform bouton;
 
     
@@ -45,5 +51,14 @@ public class Panel : MonoBehaviour
         correct--;
     }
 
+    public void incorrectPlus()
+    {
+        incorrect++;
+    }
+
+    public void incorrectMoins()
+    {
+        incorrect--;
+    }
 
 }
