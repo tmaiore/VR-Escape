@@ -44,21 +44,25 @@ public class Panel : MonoBehaviour
     public void correctPlus()
     {
         correct++;
+        notPlaced--;
     }
 
     public void correctMoins()
     {
         correct--;
+        notPlaced++;
     }
 
     public void incorrectPlus()
     {
         incorrect++;
+        notPlaced--;
     }
 
     public void incorrectMoins()
     {
         incorrect--;
+        notPlaced++;
     }
 
 }
