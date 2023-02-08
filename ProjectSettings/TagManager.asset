@@ -15,6 +15,13 @@ TagManager:
   - Cube
   - Cylindre
   - Socle
+  - h
+  - b
+  - g
+  - d
+  - a
+  - ba
+  - player
   layers:
   - Default
   - TransparentFX
