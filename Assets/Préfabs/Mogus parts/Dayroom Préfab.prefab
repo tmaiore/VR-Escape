@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 4200592871593568878}
   - component: {fileID: 4200592871593568876}
   - component: {fileID: 4200592871593568875}
+  - component: {fileID: 6214853151492108489}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Cylindre
@@ -364,6 +365,20 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!136 &6214853151492108489
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4200592871593568873}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 1.9999999
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0.00000011920929, z: -0.00000008940697}
 --- !u!1 &4200592871631369452
 GameObject:
   m_ObjectHideFlags: 0

@@ -50,7 +50,7 @@ public class DayRoomManager : MonoBehaviour
                 break;
 
             case "Cylindre":
-                if (gameObject.tag == "Cylinde")
+                if (gameObject.tag == "Cylindre")
                 {
                     socle.correctPlus();
                 }
