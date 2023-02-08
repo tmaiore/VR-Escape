@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Konami : MonoBehaviour
 {
@@ -23,6 +24,21 @@ public class Konami : MonoBehaviour
 
     [SerializeField]
     public RectTransform bouton;
+
+    [SerializeField]
+    public Image K;
+    public Image O;
+    public Image N;
+    public Image A;
+    public Image M;
+    public Image I;
+    public Image C;
+    public Image O1;
+    public Image D;
+    public Image E;
+
+    private Color32 black = new Color32(0, 0, 0, 255);
+    private Color32 green = new Color32(0, 255, 0, 255);
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +63,7 @@ public class Konami : MonoBehaviour
                 {
                     a++;
                     //colorer d
+                    D.color = green;
                     break;
                 }
                 else
@@ -61,6 +78,7 @@ public class Konami : MonoBehaviour
                 {
                     b++;
                     //colorer e
+                    E.color = green;
                     bouton.gameObject.SetActive(true);
                     break;
                 }
@@ -76,12 +94,14 @@ public class Konami : MonoBehaviour
                 {
                     haut++;
                     //colorer K
+                    K.color = green;
                     break;
                 }
                 else if(haut == 1 && a == 0 && b == 0 && bas == 0 && gauche == 0 && droite == 0)
                 {
                     haut++;
                     //Colorer o(1)
+                    O.color = green;
                     break;
                 }
                 else{
@@ -96,12 +116,14 @@ public class Konami : MonoBehaviour
                 {
                     bas++;
                     //colorer n
+                    N.color = green;
                     break;
                 }
                 else if (haut == 2 && a == 0 && b == 0 && bas == 1 && gauche == 0 && droite == 0)
                 {
                     bas++;
                     //colorer a
+                    A.color = green;
                     break;
                 }
                 else
@@ -116,12 +138,14 @@ public class Konami : MonoBehaviour
                 {
                     gauche++;
                     //colorer m
+                    M.color = green;
                     break;
                 }
                 else if (haut == 2 && a == 0 && b == 0 && bas == 2 && gauche == 1 && droite == 1)
                 {
                     gauche++;
                     //colorer C
+                    C.color = green;
                     break;
                 }
                 else
@@ -136,12 +160,14 @@ public class Konami : MonoBehaviour
                 {
                     droite++;
                     //colorer i
+                    I.color = green;
                     break;
                 }
                 else if (haut == 2 && a == 0 && b == 0 && bas == 2 && gauche == 2 && droite == 1)
                 {
                     droite++;
                     //colorer o(2)
+                    O1.color = green;
                     break;
                 }
                 else
@@ -167,7 +193,17 @@ public class Konami : MonoBehaviour
         b = 0;
 
         //Konami au mur éteint
-    }
+        K.color = black;
+        O.color = black;
+        N.color = black;
+        A.color = black;
+        M.color = black;
+        I.color = black;
+        C.color = black;
+        O1.color = black;
+        D.color = black;
+        E.color = black;
+}
 
 
 }
