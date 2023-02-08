@@ -10,10 +10,10 @@ public class Timer : MonoBehaviour
     private SwitchScene switchScene;
 
     [SerializeField]
-    private GameObject heroic;
+    public GameObject heroic;
 
     [SerializeField]
-    private GameObject braveheart;
+    public GameObject braveheart;
 
     void Update()
     {
