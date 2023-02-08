@@ -39,22 +39,37 @@ public class MogusManager : MonoBehaviour
                 if (gameObject.tag == "redPanel")
                 {
                     panel.correctPlus();
+                    break;
                 }
-                break;
+                else
+                {
+                    panel.incorrectPlus();
+                    break;
+                }
 
             case "white":
                 if (gameObject.tag == "whitePanel")
                 {
                     panel.correctPlus();
+                    break;
                 }
-                break;
+                else
+                {
+                    panel.incorrectPlus();
+                    break;
+                }
 
             case "grey":
                 if (gameObject.tag == "greyPanel")
                 {
                     panel.correctPlus();
+                    break;
                 }
-                break;
+                else
+                {
+                    panel.incorrectPlus();
+                    break;
+                }
 
             default: break;
 
@@ -65,8 +80,54 @@ public class MogusManager : MonoBehaviour
 
     public void OnDeselect(SelectExitEventArgs args)
     {
-        tagg = "";
-       panel.correctMoins();
+        
+        tagg = args.interactableObject.transform.gameObject.tag;// obj.tag;
+
+        switch (tagg)
+        {
+            case "red":
+                tagg = "";
+                if (gameObject.tag == "redPanel")
+                {
+                    panel.correctMoins();
+                    break;
+                }
+                else
+                {
+                    panel.incorrectMoins();
+                    break;
+                }
+
+            case "white":
+                tagg = "";
+                if (gameObject.tag == "whitePanel")
+                {
+                    panel.correctMoins();
+                    break;
+                }
+                else
+                {
+                    panel.incorrectMoins();
+                    break;
+                }
+
+            case "grey":
+                tagg = "";
+                if (gameObject.tag == "greyPanel")
+                {
+                    panel.correctMoins();
+                    break;
+                }
+                else
+                {
+                    panel.incorrectMoins();
+                    break;
+                }
+                
+
+            default: break;
+
+        }
     }
 
 

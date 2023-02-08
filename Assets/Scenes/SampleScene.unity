@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3003,7 +3003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd9a04c58aa2ff1428d55cffb96afc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 600
+  timeLeft: 10
   switchScene: {fileID: 1052653698}
 --- !u!4 &1052653697
 Transform:
@@ -6078,6 +6078,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1749081076}
+    - target: {fileID: 8172887097925898900, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 899404699162932683, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
     - {fileID: 899404699794935248, guid: c1eeb8ebc9355d2429721fd0f1107225, type: 3}
